@@ -1,0 +1,24 @@
+.nrc_wrap{
+	display:flex;
+}
+
+.nrc_wrap .state,.nrc_wrap .type{
+	flex-grow: 1;
+	padding:10px;
+}
+
+.nrc_wrap .district{
+	flex-grow: 4;
+	padding:10px;
+}
+
+.nrc_wrap .number{
+	flex-grow: 10;
+	padding:10px;
+}
+
+.nrc_wrap input,.nrc_wrap select{
+	width:100%;
+	padding:10px;
+	border: 1px solid #ddd;
+}
